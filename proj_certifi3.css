@@ -1,4 +1,52 @@
+html, body {
+    color: #4d4e53;
+}
+body {
+    display: block;
+}
 header {
-    font-size: 30px;
-    font-weight: bolder;
+    font-size: 1.8em;
+    display: block;
+    color: #000;
+    margin: 10px;
+}
+a {
+    display: block;
+    padding: 10px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav {
+    display: block;  
+}
+.mdn {
+    border-right: none;
+}
+#navbar {
+    position: fixed;
+    border-right: 50px;
+    min-width: 290px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-bottom: 50px;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+#navbar li {
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+#main-doc ul {
+    list-style-type: square;
 }
